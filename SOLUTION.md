@@ -19,9 +19,9 @@
 # Project Overview
 - Booking a ticket is divided into 3 steps: `GET /api/initial-call/:id`, `POST /api/reserve` and `POST /api/checkout`
 
-- The `GET /api/initial-call/:id` endpoint is used to get the available tickets for supplied event id
+- The `GET http://localhost:3000/api/initial-call/:id` endpoint is used to get the available tickets for supplied event id
 
-- The `POST /api/reserve` endpoint reserves tickets for the user to select ticket type, quantity, and seat number. The reservation is valid for 10 minutes. If not completed within that time, the reservation is cancelled and tickets are made available for others.
+- The `POST http://localhost:3000/api/reserve` endpoint reserves tickets for the user to select ticket type, quantity, and seat number. The reservation is valid for 10 minutes. If not completed within that time, the reservation is cancelled and tickets are made available for others.
 
 Request Body
 {
@@ -39,7 +39,7 @@ Request Body
 }
 
 
-- The `PUT /api/checkout` endpoint completes the checkout process. The user must provide a valid recaptcha token to verify they are not a bot and complete the purchase within 10 minutes.
+- The `PUT http://localhost:3000/api/checkout` endpoint completes the checkout process. The user must provide a valid recaptcha token to verify they are not a bot and complete the purchase within 10 minutes.
 
 Request Body
 {
