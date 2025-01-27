@@ -1,8 +1,8 @@
 version: '3.9'
 
 services:
-  template-repository-dev:
-    container_name: template-repository-dev
+  event-ticket-api-dev:
+    container_name: event-ticket-api-dev
     build:
       context: .
     volumes:
