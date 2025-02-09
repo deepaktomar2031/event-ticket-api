@@ -1,4 +1,4 @@
-# Backend Engineering Take-Home Exercise
+# event-ticket-booking-api
 
 # Tech Stack
 - Backend: Node.js using TypeScript
