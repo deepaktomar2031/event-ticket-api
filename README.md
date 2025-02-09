@@ -1,4 +1,4 @@
-# Backend Engineering Take-Home Exercise
+# event-ticket-booking-api
 
 Taylor Swift needs your help - while existing ticketing systems work, they are failing to enable her true fans to come to concerts at face value. 
 You've been tasked to implement a simplified event ticketing purchasing system, which allows users to purchase tickets on a specific release date smoothly. 
